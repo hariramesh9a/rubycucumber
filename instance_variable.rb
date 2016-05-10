@@ -3,7 +3,7 @@ class InstanceVariable
     @name=name
   end
   p @name #trying to access outside method will return nil
-          #access limited with in method
+  #access limited with in method
 end
 newinstancevariable=InstanceVariable.new #new instance
 p newinstancevariable.tryme('John')  #give a value John to name
